@@ -1,0 +1,11 @@
+{props.orders.map((el) => (
+              <Order key={el.id} item={el} />
+            ))}
+
+
+
+
+deleteOrder(id) {
+ /// this.setState({ orders: this.state.orders.filter((el) => el.id !== id) }); 
+  }
+             
