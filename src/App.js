@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Items from './components/Items';
 import Categories from './components/Categories';
 import ShowFullItem from './components/ShowFullItem';
+import Dialogs from './Dialogs/Dialogs';
 
 class App extends React.Component {
   constructor(props) {
@@ -230,6 +231,9 @@ class App extends React.Component {
             item={this.state.fullItem}
           />
         )}
+
+        <Dialogs />
+
         <Footer />
       </div>
     );

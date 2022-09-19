@@ -247,6 +247,40 @@ main .add-to-cart:hover {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-top: 50px;
+  background-color: rgb(3, 108, 73);
+  color: antiquewhite;
+}
+
+.main-footer {
+  display: flex;
+  float: left;
+  min-height: 50px;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: rgb(3, 119, 128);
+  position: relative;
+}
+
+.row-footer {
   text-align: center;
-  margin-top: 100px;
+  margin: 20px;
+}
+
+.col-footer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list-unstyled-footer {
+  text-align: center;
 }
